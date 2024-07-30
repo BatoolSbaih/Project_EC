@@ -1,0 +1,142 @@
+.nav-link.active{
+    
+    border-bottom: 3px solid rgb(248, 246, 244) ;
+}
+
+
+.logo1{
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    display: block;
+}
+.fashonname{
+   font-style:italic ;
+}
+  .edu-nsw  {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:700;
+    font-size:20px ;
+  }
+  nav{
+    width:100%;
+    height: 70px;
+    margin: auto;
+    border: #333333 solid 1px;
+    border-radius: 0  0 7px 7px;
+    box-shadow:0 0 8px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right,#d2b48c, #d2b48c, #d2b48c);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:absolute;
+    z-index: 1;
+
+  }
+  
+.part1-c{
+    display: flex;
+    width:150px;
+    flex-direction: row;
+    gap: 20px;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.part1-a{
+    color: white;
+    margin-left: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.part1-b{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+   
+}
+.part1-b ul{
+    margin: auto;
+}
+.part1-a ul{
+    padding-left: 50px;
+}
+
+.bg-body-tertiary1 {
+    --bs-bg-opacity: 1;
+ 
+}
+/* Navbar.css */
+
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+}
+
+.logo1 {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.fashonname {
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+}
+
+.part1-a,
+.part1-b,
+.part1-c {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.part1-b {
+    justify-content: flex-end;
+}
+
+.dropdown-menu-custom {
+    background-color: #d3d3d3;
+}
+
+/* Ensure navbar-toggler button is visible and properly styled */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: wheat;
+}
+
+/* Media query to apply background color for the dropdown menu on smaller screens */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #d3d3d3;
+    }
+}
